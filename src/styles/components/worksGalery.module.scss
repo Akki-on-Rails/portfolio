@@ -7,7 +7,7 @@
 
 .galery-wrapper {
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   position: absolute;
   top: 100%;
   background-image: linear-gradient(to bottom, $color-bg-dark, $color-bg 20%);
@@ -17,10 +17,6 @@
   h2, .element-container {
     width: 100%;
     padding: 0 10vw;
-    // position: absolute;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
-    // text-align: start;
   }
 
   h2 {
@@ -31,13 +27,18 @@
 
 .element-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-flow: row;
   gap: 2vw;
+  row-gap: 5rem;
+}
+
+.test {
+  background-color: red;
 }
 
 .galery-element {
-  width: auto;
+  min-width: auto;
   aspect-ratio: 3/2;
   background-color: $white-transparent-005;
  }

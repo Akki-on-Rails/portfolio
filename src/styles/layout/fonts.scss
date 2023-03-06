@@ -1,4 +1,17 @@
 @import '../abstracts/typo.scss';
+@import '../layout/colors.scss';
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: $white-transparent-09;
+}
+
+a, a > h6{
+  color: $white-transparent-04;
+
+  &:hover, &:active {
+    color: $white-transparent-07;
+  }
+}
 
 p {
   font-size: .9rem;

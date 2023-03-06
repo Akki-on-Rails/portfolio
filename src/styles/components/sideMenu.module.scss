@@ -11,15 +11,10 @@
 
   a {
     text-decoration: none;
-    color: $white-transparent-04;
     display: flex;
     align-items: center;
     transform: rotate(.25turn);
     margin-top: 2vh;
-  }
-
-  a:hover, a:active {
-    color: $white-transparent-07;
   }
 
   a h6 {

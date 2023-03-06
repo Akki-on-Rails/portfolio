@@ -1,0 +1,34 @@
+@import '../abstracts/typo.scss';
+@import '../layout/colors.scss';
+
+.galery-wrapper {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  top: 100%;
+  background-color: $color-bg;
+
+  h2, .element-container {
+    width: 60vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    padding-top: 3rem;
+    // TO DO: replace horizontal line
+    // by a dark to light gradient
+    border-top: 1px solid $white-transparent-07;
+  }
+}
+
+// TO DO: add a scroll snap
+
+@media (min-width: 765px) {
+  .galery-wrapper h2, .element-container {
+    width: 80vw
+  }
+}

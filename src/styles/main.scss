@@ -4,8 +4,9 @@
 @use 'components/background.module';
 @use 'components/sideMenu.module';
 
-// fonts
+// fonts and typo
 @use 'abstracts/typo';
+@use 'layout/fonts';
 
 // colors
 @use 'layout/colors.scss';

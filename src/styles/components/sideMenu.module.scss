@@ -3,17 +3,30 @@
 
 .sideMenu-wrapper {
   position: absolute;
+  top: 120px;
+  right: -70px;
   z-index: 1;
   display: flex;
-  // transform: rotate(.5turn)
+  flex-direction: column;
 
   a {
     text-decoration: none;
     color: $white-transparent-04;
     display: flex;
+    align-items: center;
+    transform: rotate(.25turn);
+    margin-top: 2vh;
   }
 
   a:hover, a:active {
     color: $white-transparent-07;
+  }
+
+  a h6 {
+    padding: 0 .8rem;
+  }
+
+  a:last-child {
+    margin-top: 210px;
   }
 }

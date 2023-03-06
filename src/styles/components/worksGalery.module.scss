@@ -1,29 +1,46 @@
 @import '../abstracts/typo.scss';
 @import '../layout/colors.scss';
 
+* {
+  box-sizing: border-box;
+}
+
 .galery-wrapper {
   width: 100%;
   height: 50vh;
   position: absolute;
   top: 100%;
-  background-color: $color-bg;
+  background-image: linear-gradient(to bottom, $color-bg-dark, $color-bg 20%);
+  display: flex;
+  flex-direction: column;
 
   h2, .element-container {
-    width: 60vw;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: start;
+    width: 100%;
+    padding: 0 10vw;
+    // position: absolute;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // text-align: start;
   }
 
   h2 {
-    margin-top: 2.5rem;
-    padding-top: 3rem;
-    // TO DO: replace horizontal line
-    // by a dark to light gradient
-    border-top: 1px solid $white-transparent-07;
+    margin: 5rem 0 2rem;
+    // padding-top: 3rem;
   }
 }
+
+.element-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  gap: 2vw;
+}
+
+.galery-element {
+  width: auto;
+  aspect-ratio: 3/2;
+  background-color: $white-transparent-005;
+ }
 
 // TO DO: add a scroll snap
 

@@ -1,0 +1,69 @@
+@import '../abstracts/typo.scss';
+@import '../layout/colors.scss';
+
+.about-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-container {
+  h1, h2 {
+    display: none;
+  }
+}
+img {
+  width: auto;
+  height: 30vh;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 7px solid $color-primary;
+  border-radius: 35% 65% 58% 42% / 30% 44% 56% 70%
+}
+
+.about-text-wrapper {
+  width: 60vw;
+  color: $white-transparent-09;
+
+  h1 {
+    color: $color-primary;
+  }
+
+  h2 {
+    color: $color-primary-08;
+    // margin-top: 0;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  p {
+    margin-top: 2rem;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 765px) {
+  .mobile-title {
+    display: none;
+  }
+
+  .about-container {
+    display: flex;
+
+    h1, h2 {
+      display: block;
+      text-align: start;
+    }
+
+    h1, h2 {
+      margin: 0 2rem;
+    }
+
+    p {
+      margin: 2rem;
+    }
+  }
+}

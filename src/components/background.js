@@ -1,12 +1,14 @@
 import React from 'react';
 
-import styles from '../styles/components/background.module.scss';
+import '../styles/main.scss';
 
 const Background = () => {
   return (
-    <div className={styles.logoWrapper}>
-      <div className={styles.lineOne}>code+</div>
-      <div className={styles.lineTwo}>design</div>
+    <div className='logoWrapper'>
+      <div>
+        <h1 className='lineOne'>code+</h1>
+        <h1 className='lineTwo'>design</h1>
+      </div>
     </div>
   )
 }

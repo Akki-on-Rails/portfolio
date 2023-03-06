@@ -1,0 +1,19 @@
+@import '../abstracts/typo.scss';
+@import '../layout/colors.scss';
+
+.sideMenu-wrapper {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  // transform: rotate(.5turn)
+
+  a {
+    text-decoration: none;
+    color: $white-transparent-04;
+    display: flex;
+  }
+
+  a:hover, a:active {
+    color: $white-transparent-07;
+  }
+}

@@ -1,0 +1,32 @@
+@import '../abstracts/typo.scss';
+@import '../layout/colors.scss';
+
+.logoWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: row;
+  background-color: $color-bg;
+  position: absolute;
+  z-index: -10;
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20vw;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 18vw;
+    color: $white-transparent-005;
+  }
+
+  h1:first-child {
+    letter-spacing: .9vw;
+  }
+
+  h1:last-child {
+    letter-spacing: -0.5vw;
+  }
+}

@@ -28,15 +28,16 @@
   h1, h2 {
     display: none;
   }
-}
-img {
-  margin: 3rem auto;
-  width: 30vh;
-  height: 30vh;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border: 7px solid $color-primary;
-  border-radius: 35% 65% 58% 42% / 30% 44% 56% 70%
+
+  img {
+    margin: 3rem auto;
+    width: 30vh;
+    height: 30vh;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 7px solid $color-primary;
+    border-radius: 35% 65% 58% 42% / 30% 44% 56% 70%
+  }
 }
 
 .about-text-wrapper {

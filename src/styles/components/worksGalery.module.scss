@@ -26,16 +26,15 @@
 }
 
 .element-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-flow: row;
+  display: flex;
+  flex-wrap: wrap;
   gap: 2.5vw;
-  row-gap: 3rem;
+  // row-gap: 3rem;
 }
 
 .galery-element {
-  min-width: auto;
-  aspect-ratio: 2/2.5;
+  height: 200px;
+  flex: 1 0 200px;
   background-color: $white-transparent-005;
 
   img {

@@ -2,7 +2,7 @@ export const Project = [
   {
     name: 'BoxTag',
     id: 1,
-    image: ['../images/BoxTag-Mockup.jpg'],
+    image: ['/logo192.png', '/images/BoxTag-Mockup.jpg'],
     alt: ['BoxTag App on different mobile screens'],
     short: 'This PWA helps you manage all your stuff and boxes',
     long: `Manage boxes and their insides. Print QR labels to find

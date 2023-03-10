@@ -13,7 +13,7 @@ const WorksGalery = () => {
       <h2>Projects</h2>
       <div className='element-container'>
         <div className='galery-element card-shadow'>
-          <img src={project1} alt={Project[0].alt}></img>
+          <img src={Project[0].image[1]} alt={Project[0].alt}></img>
           <h4>{Project[0].short}</h4><p>Lorem ipsum dolor sit amet, consetetur sadipscing
             elitr, sed diam nonumy eirmod tempor invidunt ut
             labore et dolore magna aliquyam</p>

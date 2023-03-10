@@ -22,8 +22,21 @@ export const project = [
     image: [],
     alt: [],
     short: 'write a one-liner about the project',
-    long: 'give a long description for the project',
-    link: ['https://github.com/Akki-on-Rails/skill-bridge'],
+    long: `SkillBridge is an online platform that enables young adults
+          to find the perfect apprenticeship position based on their
+          skills and interests. By completing a 360-degree assessment
+          they can match open positions and be found by employers that
+          are looking for a specific motivation in candidates.
+          SkillBridge is the final project of the winter semester 2022/
+          2023 at TechLabs. The team consisted of three UX designers and
+          three Web Developers and included UX's research and design work
+          as well as the coding work of the WebDev members. Throughout
+          the project, Miro was used for the documentation of the UX
+          Design process whereas the creation of wireframes and prototypes
+          was done in Figma. The Web-Application was built with the MERN
+          stack (MongoDB, Express, React, and Node).`,
+    link: ['https://github.com/Akki-on-Rails/skill-bridge',
+          'https://medium.com/@TechLabs_Hamburg/skillbridge-building-a-career-youre-passionate-about-72e66c41d923'],
     techstack: ['React', 'NodeJS', 'MongoDB', 'JavaScript', 'HTML', 'CSS', 'SCSS']
   }
 ]

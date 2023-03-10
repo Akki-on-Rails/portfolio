@@ -14,39 +14,17 @@ const WorksGalery = () => {
       <div className='element-container'>
         <div className='galery-element card-shadow'>
           <img src={Project[0].image[1]} alt={Project[0].alt}></img>
-          <h4>{Project[0].short}</h4><p>Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut
-            labore et dolore magna aliquyam</p>
+          <div className='element-text-container'>
+            <h4>{Project[0].name}</h4>
+            <p>{Project[0].short}</p>
+          </div>
         </div>
         <div className='galery-element card-shadow'>
-          <img src={project1} alt='image of the BoxTag app'></img>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut
-            labore et dolore magna aliquyam</p>
-        </div>
-        <div className='galery-element card-shadow'>
-          <img src={project1} alt='image of the BoxTag app'></img>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut
-            labore et dolore magna aliquyam</p>
-        </div>
-        <div className='galery-element card-shadow'>
-          <img src={project1} alt='image of the BoxTag app'></img>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut
-            labore et dolore magna aliquyam</p>
-        </div>
-        <div className='galery-element card-shadow'>
-          <img src={project1} alt='image of the BoxTag app'></img>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut
-            labore et dolore magna aliquyam</p>
-        </div>
-        <div className='galery-element card-shadow'>
-          <img src={project1} alt='image of the BoxTag app'></img>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut
-            labore et dolore magna aliquyam</p>
+          <img src={Project[1].image[1]} alt={Project[1].alt}></img>
+          <div className='element-text-container'>
+            <h4>{Project[1].name}</h4>
+            <p>{Project[1].short}</p>
+          </div>
         </div>
       </div>
     </div>

@@ -13,14 +13,14 @@ const WorksGalery = () => {
       <h2>Projects</h2>
       <div className='element-container'>
         <div className='galery-element card-shadow'>
-          <img src={Project[0].image[1]} alt={Project[0].alt}></img>
+          <img src={Project[0].image[0]} alt={Project[0].alt}></img>
           <div className='element-text-container'>
             <h4>{Project[0].name}</h4>
             <p>{Project[0].short}</p>
           </div>
         </div>
         <div className='galery-element card-shadow'>
-          <img src={Project[1].image[1]} alt={Project[1].alt}></img>
+          <img src={Project[1].image[0]} alt={Project[1].alt}></img>
           <div className='element-text-container'>
             <h4>{Project[1].name}</h4>
             <p>{Project[1].short}</p>

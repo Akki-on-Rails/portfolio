@@ -1,4 +1,4 @@
-export const project = [
+export const Project = [
   {
     name: 'BoxTag',
     id: 1,

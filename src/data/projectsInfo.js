@@ -21,7 +21,7 @@ export const Project = [
     id: 2,
     image: ['/images/skillbridge_macbook-mockup.jpg'],
     alt: [],
-    short: 'write a one-liner about the project',
+    short: 'Write a one-liner about the project. Please keep in mind that a long text will be clipped. So rule for writing this text is: keep it short!!!',
     long: `SkillBridge is an online platform that enables young adults
           to find the perfect apprenticeship position based on their
           skills and interests. By completing a 360-degree assessment

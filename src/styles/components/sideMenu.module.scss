@@ -1,20 +1,24 @@
 @import '../abstracts/typo.scss';
 @import '../layout/colors.scss';
 
-.sideMenu-wrapper {
+.sideMenu-container {
+  position: sticky;
+  top: 0px;
+  right: 0;
+  z-index: 999;
+}
+
+.link-wrapper {
+  transform: rotate(.25turn);
   position: absolute;
-  top: 120px;
-  right: -70px;
-  z-index: 1;
+  top: 200px;
+  right: -125px;
   display: flex;
-  flex-direction: column;
 
   a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    transform: rotate(.25turn);
-    margin-top: 2vh;
   }
 
   a h6 {
@@ -22,6 +26,6 @@
   }
 
   a:last-child {
-    margin-top: 210px;
+    margin-left: 20px;
   }
 }

@@ -4,13 +4,15 @@ import SideMenu from './components/sideMenu'
 import About from './components/about'
 import WorksGalery from './components/worksGalery'
 
-import styles from './styles/App.scss';
+import './styles/App.scss';
 
 function App() {
   return (
     <div>
       <body>
-        <Background />
+        <div className='bg-container'>
+          <Background />
+        </div>
         <SideMenu />
         <About />
         <WorksGalery />

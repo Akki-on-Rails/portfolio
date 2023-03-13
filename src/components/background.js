@@ -4,8 +4,8 @@ import '../styles/main.scss';
 
 const Background = () => {
   return (
-    <div className='logoWrapper'>
-      <div>
+    <div className='background-container'>
+      <div className='logo-wrapper'>
         <h3 className='lineOne'>code+</h3>
         <h3 className='lineTwo'>design</h3>
       </div>

@@ -1,16 +1,25 @@
 @import '../abstracts/typo.scss';
 @import '../layout/colors.scss';
 
-.logoWrapper {
+// .background-wrapper {
+//   position: sticky;
+//   top:0;
+//   right:0;
+//   // width: 100vw;
+//   // height: 100vh;
+//   z-index: -999;
+// }
+
+.logo-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 100vw;
   height: 100vh;
   display: grid;
-  justify-content: center;
-  align-content: center;
+  place-items: center;
   grid-auto-flow: row;
   background-color: $color-bg;
-  position: absolute;
-  z-index: -10;
 
   h3 {
     text-transform: uppercase;

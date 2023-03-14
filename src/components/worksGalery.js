@@ -19,9 +19,8 @@ const WorksGalery = () => {
           <div className='card-info'>
             <h4>{Project[0].name}</h4>
             {/* for the short text add a conditional to clip the text: */}
-            {/* truncateString({Project[0].short}, 100) where 100 is */}
-            {/* max length of the short description */}
-            <p>{Project[0].short}</p>
+            {/* textTruncate(text, num) where num ist the max. number of characters */}
+            <p>{textTruncate(Project[0].short, 70)}</p>
           </div>
         </div>
         <div className='card card-shadow'>

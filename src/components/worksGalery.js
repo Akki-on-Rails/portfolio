@@ -4,6 +4,8 @@ import '../styles/main.scss';
 import project1 from '../images/BoxTag-Mockup.jpg';
 import { Project } from '../data/projectsInfo'
 
+import { textTruncate } from '../functions/textTruncate';
+
 // TO DO: need to call item and iterate over it to
 // be able to use the content data for the cards.
 
@@ -26,7 +28,7 @@ const WorksGalery = () => {
           <img src={Project[1].image[0]} alt={Project[1].alt}></img>
           <div className='card-info'>
             <h4>{Project[1].name}</h4>
-            <p>{Project[1].short}</p>
+            <p>{textTruncate(Project[1].short, 70)}</p>
           </div>
         </div>
       </div>

@@ -1,18 +1,9 @@
 @import '../abstracts/typo.scss';
 @import '../layout/colors.scss';
 
-// .background-wrapper {
-//   position: sticky;
-//   top:0;
-//   right:0;
-//   // width: 100vw;
-//   // height: 100vh;
-//   z-index: -999;
-// }
-
-.logo-wrapper {
+.background-container {
   position: absolute;
-  top: 0;
+  top: 100;
   right: 0;
   width: 100vw;
   height: 100vh;
@@ -20,6 +11,9 @@
   place-items: center;
   grid-auto-flow: row;
   background-color: $color-bg;
+}
+
+.logo-wrapper {
 
   h3 {
     text-transform: uppercase;
@@ -29,7 +23,6 @@
 
   h3:first-child {
     letter-spacing: .9vw;
-    // margin-top: -20vh;
   }
 
   h3:last-child {

@@ -8,18 +8,11 @@
 .galery-wrapper {
   width: 100%;
   background-image: linear-gradient(to bottom, $color-bg-dark, rgba(255, 255, 255, 0) 20%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
   h2 {
     width: 100%;
-    padding: 0 10vw;
-  }
-
-  h2 {
-    margin: 4rem 0 2.5rem;
-    // padding-top: 5rem;
+    padding: 4rem 10vw 0;
+    margin-bottom: 2.5rem;
   }
 
   .card-wrapper {
@@ -29,72 +22,30 @@
 }
 
 .card {
-  max-width: 300px;
-  height: calc(100% - 100px);
-  margin: 0 auto;
-  margin-bottom: 3rem;
-  position: relative;
-}
-
-.card > img {
-  // height: 200px;
   width: 100%;
-  aspect-ratio: 3/2;
-  object-fit: cover;
-}
+  margin: 4rem auto;
 
-.card h4 {
-  font-weight: bold;
-  margin: 0 0 1rem;
-  line-height: 1rem;
-  color: $color-bg;
-}
-
-.card p {
-  color: $color-bg;
-  margin: 0;
-}
-
-.card .card-info {
-  background: $color-secondary-80;
-  padding: 16px;
-  position: relative;
-  height: 100px;
-  overflow: hidden;
-}
-
-.card-info .card-user {
-  position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
-}
-
-@media (min-width: 765px) {
-  .galery-wrapper .card-wrapper {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-  }
-
-  .card {
-    max-width: 30vw;
-  }
-
-  .card-info, .card-info > img {
-    position: absolute;
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
   }
 
   .card-info {
-    top: -103px;
-    display: none;
+    background-color: $color-secondary-70;
+    opacity: .6;
+    padding: 1rem;
   }
 
-  .card:hover {
-    .card-info {
-      display: block;
-    }
+  .card-info h4 {
+    margin-bottom: .5rem;
+  }
+
+  h4, p {
+    color: $color-bg;
   }
 }
+// @media (min-width: 765px) {
+
+// }

@@ -46,6 +46,16 @@
     color: $color-bg;
   }
 }
-// @media (min-width: 765px) {
+@media (min-width: 765px) {
+  .card {
+    position: relative;
+  }
+  .card-info {
+    // display: none;
+    position: absolute;
+  }
+  img {
+    position: absolute;
+  }
 
-// }
+}

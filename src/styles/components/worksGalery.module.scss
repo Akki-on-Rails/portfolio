@@ -27,6 +27,7 @@
 
   img {
     display: block;
+    margin: 0 auto;
     width: 100%;
     aspect-ratio: 3/2;
     object-fit: cover;
@@ -49,13 +50,39 @@
 @media (min-width: 765px) {
   .card {
     position: relative;
+    background-color: $color-bg;
   }
   .card-info {
-    // display: none;
+    display: none;
     position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    h4 {
+      font-size: 4rem;
+    }
+
+    h4, p {
+      color: whitesmoke;
+    }
   }
-  img {
-    position: absolute;
+  .card:hover {
+    img {
+      // need a container for the div to keep edges sharp while image is blurred
+      // image in the container needs to be >100% and container overflow hidden
+      filter: grayscale(60%) blur(2px) saturate(75%);
+      // width: 98%;
+      border: 3px solid red;
+      transition: all .5s ease-out;
+    }
+
+    .card-info {
+      padding: 3rem 1rem 2rem;
+      display: block;
+      color: whitesmoke;
+      background-color: $color-bg;
+      opacity: .8;
+    }
   }
 
 }

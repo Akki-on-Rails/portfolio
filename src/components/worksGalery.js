@@ -15,7 +15,9 @@ const WorksGalery = () => {
       <div className='card-wrapper'>
         <div className='card'>
           {/* for card shadow add 'card-shadow' to className */}
-          <img src={Project[0].image[0]} alt={Project[0].alt}></img>
+          <div className='image-wrapper'>
+            <img src={Project[0].image[0]} alt={Project[0].alt}></img>
+          </div>
           <div className='card-info'>
             <h4>{Project[0].name}</h4>
             {/* for the short text added a conditional to clip the text: */}
@@ -24,7 +26,9 @@ const WorksGalery = () => {
           </div>
         </div>
         <div className='card'>
-          <img src={Project[1].image[0]} alt={Project[1].alt}></img>
+          <div className='image-wrapper'>
+            <img src={Project[1].image[0]} alt={Project[1].alt}></img>
+          </div>
           <div className='card-info'>
             <h4>{Project[1].name}</h4>
             <p>{textTruncate(Project[1].short, 70)}</p>

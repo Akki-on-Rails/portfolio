@@ -11,13 +11,13 @@ const About = () => {
     <div className='about-wrapper'>
       <div className='mobile-title'>
         <h1>Frank Gerngroß</h1>
-        <h2>Frontend Developer & Graphic Designer</h2>
+        <h3>Frontend Developer & Graphic Designer</h3>
       </div>
       <div className='about-container'>
         <img src={portrait} alt='a portrait of me: Frank Gerngross'></img>
         <div className='about-text-wrapper'>
           <h1>Frank Gerngroß</h1>
-          <h2>Frontend Developer & Graphic Designer</h2>
+          <h3>Frontend Developer & Graphic Designer</h3>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,

@@ -6,8 +6,8 @@ const Background = () => {
   return (
     <div className='background-container'>
       <div className='logo-wrapper'>
-        <h3 className='lineOne'>code+</h3>
-        <h3 className='lineTwo'>design</h3>
+        <p className='lineOne'>code+</p>
+        <p className='lineTwo'>design</p>
       </div>
     </div>
   )

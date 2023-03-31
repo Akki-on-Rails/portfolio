@@ -15,11 +15,12 @@
     color: $color-primary;
   }
 
-  h2 {
+  h3 {
     color: $color-primary-transparent-75;
+    margin-bottom: 1rem;
   }
 
-  h1, h2 {
+  h1, h3 {
     text-align: center;
   }
 }
@@ -30,7 +31,7 @@
   justify-content: center;
   margin-bottom: 2rem;
 
-  h1, h2 {
+  h1, h3 {
     display: none;
   }
 
@@ -49,7 +50,7 @@
   width: 60vw;
   color: $white-transparent-09;
 
-  h1, h2 {
+  h1, h3 {
     text-align: center;
   }
 
